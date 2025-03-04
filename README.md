@@ -64,8 +64,7 @@ python scripts/portfolio_optimization.py
 - **Risk Metrics Analysis**: Includes **Sharpe Ratio, Volatility, VaR (95%)**.
 - **Forecasting Accuracy**: Evaluates models based on RMSE, MAE, and MAPE.
 
-## 🤝 Contributing
-Contributions are welcome! Feel free to submit pull requests or report issues.
+##  ====================== 🤝 ==========================
 
 
 
