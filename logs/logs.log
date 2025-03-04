@@ -1,0 +1,352 @@
+2025-02-28 20:25:45,939 - INFO - Initialized YFinanceDataCollector with tickers: ['TSLA', 'BND', 'SPY'], date range: 2015-01-01 to 2025-01-31
+2025-02-28 20:26:07,278 - INFO - Fetching data for TSLA
+2025-02-28 20:29:07,136 - INFO - Initialized YFinanceDataCollector with tickers: ['TSLA', 'BND', 'SPY'], date range: 2015-01-01 to 2025-01-31
+2025-02-28 20:29:27,891 - INFO - Fetching data for TSLA
+2025-02-28 20:31:06,010 - INFO - Fetching data for TSLA
+2025-02-28 20:32:04,200 - INFO - Initialized YFinanceDataCollector with tickers: ['TSLA', 'BND', 'SPY'], date range: 2015-01-01 to 2025-01-31
+2025-02-28 20:32:10,677 - INFO - Fetching data for TSLA
+2025-02-28 20:32:10,794 - INFO - Fetching data for BND
+2025-02-28 20:32:11,981 - INFO - Fetching data for SPY
+2025-02-28 20:32:12,688 - INFO - Data fetching complete.
+2025-02-28 20:33:36,883 - INFO - Saving data to historical_data.csv
+2025-02-28 20:33:36,883 - INFO - Fetching data for TSLA
+2025-02-28 20:33:36,980 - INFO - Fetching data for BND
+2025-02-28 20:33:37,092 - INFO - Fetching data for SPY
+2025-02-28 20:33:37,213 - INFO - Data fetching complete.
+2025-02-28 20:33:37,370 - INFO - Data successfully saved to historical_data.csv
+2025-02-28 20:37:27,879 - INFO - Initialized YFinanceDataCollector with tickers: ['TSLA', 'BND', 'SPY'], date range: 2015-01-01 to 2025-01-31
+2025-02-28 20:38:47,075 - INFO - Saving data for TSLA to ../week 11 data /Data/TSLA.csv
+2025-02-28 20:38:47,077 - INFO - Fetching data for TSLA
+2025-02-28 20:38:47,173 - INFO - Data fetching complete for TSLA.
+2025-02-28 20:39:18,109 - INFO - Saving data for TSLA to ../week 11 data/Data/TSLA.csv
+2025-02-28 20:39:18,112 - INFO - Fetching data for TSLA
+2025-02-28 20:39:18,251 - INFO - Data fetching complete for TSLA.
+2025-02-28 20:39:18,318 - INFO - Data for TSLA successfully saved to ../week 11 data/Data/TSLA.csv
+2025-02-28 20:39:18,324 - INFO - Saving data for BND to ../week 11 data/Data/BND.csv
+2025-02-28 20:39:18,326 - INFO - Fetching data for BND
+2025-02-28 20:39:18,481 - INFO - Data fetching complete for BND.
+2025-02-28 20:39:18,513 - INFO - Data for BND successfully saved to ../week 11 data/Data/BND.csv
+2025-02-28 20:39:18,520 - INFO - Saving data for SPY to ../week 11 data/Data/SPY.csv
+2025-02-28 20:39:18,520 - INFO - Fetching data for SPY
+2025-02-28 20:39:18,631 - INFO - Data fetching complete for SPY.
+2025-02-28 20:39:18,691 - INFO - Data for SPY successfully saved to ../week 11 data/Data/SPY.csv
+2025-02-28 20:44:04,492 - INFO - Loading data for TSLA from ../week 11 data/Data/TSLA.csv...
+2025-02-28 20:44:04,699 - INFO - Basic statistics for TSLA:
+              Open         High          Low        Close        Volume
+count  2535.000000  2535.000000  2535.000000  2535.000000  2.535000e+03
+mean    117.877662   120.474827   115.097514   117.848209  1.120308e+08
+std     116.611575   119.236025   113.698930   116.508288  7.387509e+07
+min       9.488000    10.331333     9.403333     9.578000  1.062000e+07
+25%      17.259334    17.527667    16.942000    17.228000  6.680295e+07
+50%      31.299999    32.329334    29.760000    30.298000  9.264180e+07
+75%     222.653336   226.696671   217.061661   221.525002  1.294283e+08
+max     475.899994   488.540009   457.510010   479.859985  9.140820e+08
+2025-02-28 20:44:04,971 - INFO - Checking for missing values in the DataFrame.
+2025-02-28 20:44:04,976 - INFO - Missing values check completed.
+2025-02-28 20:44:05,003 - INFO - Loading data for BND from ../week 11 data/Data/BND.csv...
+2025-02-28 20:44:05,188 - INFO - Basic statistics for BND:
+              Open         High          Low        Close        Volume
+count  2535.000000  2535.000000  2535.000000  2535.000000  2.535000e+03
+mean     69.293224    69.391261    69.186012    69.289451  4.233200e+06
+std       4.793199     4.800408     4.782142     4.792145  2.796083e+06
+min      61.891461    61.937373    61.822628    61.860867  0.000000e+00
+25%      65.552721    65.630196    65.475496    65.565258  2.057700e+06
+50%      68.310226    68.457869    68.169740    68.329117  3.805800e+06
+75%      72.845710    72.946418    72.728801    72.879929  5.626700e+06
+max      78.884935    78.920165    78.788028    78.823265  3.193720e+07
+2025-02-28 20:44:05,230 - INFO - Checking for missing values in the DataFrame.
+2025-02-28 20:44:05,234 - INFO - Missing values check completed.
+2025-02-28 20:44:05,256 - INFO - Loading data for SPY from ../week 11 data/Data/SPY.csv...
+2025-02-28 20:44:05,326 - INFO - Basic statistics for SPY:
+              Open         High          Low        Close        Volume
+count  2535.000000  2535.000000  2535.000000  2535.000000  2.535000e+03
+mean    316.021384   317.725660   314.157889   316.067402  8.714655e+07
+std     117.921618   118.486410   117.269902   117.926910  4.487253e+07
+min     156.354943   157.864136   154.676927   156.800842  2.027000e+07
+25%     214.972492   215.702238   214.206885   214.841980  5.862005e+07
+50%     277.230781   277.919580   276.073703   277.117920  7.642870e+07
+75%     406.100271   409.134341   402.830888   405.869186  1.018866e+08
+max     609.809998   610.780029   606.799988   609.750000  5.072443e+08
+2025-02-28 20:44:05,369 - INFO - Checking for missing values in the DataFrame.
+2025-02-28 20:44:05,373 - INFO - Missing values check completed.
+2025-02-28 20:45:46,093 - INFO - Loading data for TSLA from ../week 11 data/Data/TSLA.csv...
+2025-02-28 20:45:46,135 - INFO - Basic statistics for TSLA:
+              Open         High          Low        Close        Volume
+count  2535.000000  2535.000000  2535.000000  2535.000000  2.535000e+03
+mean    117.877662   120.474827   115.097514   117.848209  1.120308e+08
+std     116.611575   119.236025   113.698930   116.508288  7.387509e+07
+min       9.488000    10.331333     9.403333     9.578000  1.062000e+07
+25%      17.259334    17.527667    16.942000    17.228000  6.680295e+07
+50%      31.299999    32.329334    29.760000    30.298000  9.264180e+07
+75%     222.653336   226.696671   217.061661   221.525002  1.294283e+08
+max     475.899994   488.540009   457.510010   479.859985  9.140820e+08
+2025-02-28 20:45:46,164 - INFO - Checking for missing values in the DataFrame.
+2025-02-28 20:45:46,173 - INFO - Missing values check completed.
+2025-02-28 20:45:46,190 - INFO - Loading data for BND from ../week 11 data/Data/BND.csv...
+2025-02-28 20:45:46,231 - INFO - Basic statistics for BND:
+              Open         High          Low        Close        Volume
+count  2535.000000  2535.000000  2535.000000  2535.000000  2.535000e+03
+mean     69.293224    69.391261    69.186012    69.289451  4.233200e+06
+std       4.793199     4.800408     4.782142     4.792145  2.796083e+06
+min      61.891461    61.937373    61.822628    61.860867  0.000000e+00
+25%      65.552721    65.630196    65.475496    65.565258  2.057700e+06
+50%      68.310226    68.457869    68.169740    68.329117  3.805800e+06
+75%      72.845710    72.946418    72.728801    72.879929  5.626700e+06
+max      78.884935    78.920165    78.788028    78.823265  3.193720e+07
+2025-02-28 20:45:46,295 - INFO - Checking for missing values in the DataFrame.
+2025-02-28 20:45:46,297 - INFO - Missing values check completed.
+2025-02-28 20:45:46,327 - INFO - Loading data for SPY from ../week 11 data/Data/SPY.csv...
+2025-02-28 20:45:46,399 - INFO - Basic statistics for SPY:
+              Open         High          Low        Close        Volume
+count  2535.000000  2535.000000  2535.000000  2535.000000  2.535000e+03
+mean    316.021384   317.725660   314.157889   316.067402  8.714655e+07
+std     117.921618   118.486410   117.269902   117.926910  4.487253e+07
+min     156.354943   157.864136   154.676927   156.800842  2.027000e+07
+25%     214.972492   215.702238   214.206885   214.841980  5.862005e+07
+50%     277.230781   277.919580   276.073703   277.117920  7.642870e+07
+75%     406.100271   409.134341   402.830888   405.869186  1.018866e+08
+max     609.809998   610.780029   606.799988   609.750000  5.072443e+08
+2025-02-28 20:45:46,447 - INFO - Checking for missing values in the DataFrame.
+2025-02-28 20:45:46,451 - INFO - Missing values check completed.
+2025-02-28 20:52:16,314 - INFO - Loading data for TSLA from ../week 11 data/Data/TSLA.csv...
+2025-02-28 20:52:16,343 - INFO - Loading data for BND from ../week 11 data/Data/BND.csv...
+2025-02-28 20:52:16,376 - INFO - Loading data for SPY from ../week 11 data/Data/SPY.csv...
+2025-02-28 20:54:57,704 - INFO - Loading data for TSLA from ../week 11 data/Data/TSLA.csv...
+2025-02-28 20:54:57,729 - INFO - Loading data for BND from ../week 11 data/Data/BND.csv...
+2025-02-28 20:54:57,750 - INFO - Loading data for SPY from ../week 11 data/Data/SPY.csv...
+2025-02-28 20:55:02,262 - INFO - Loading data for TSLA from ../week 11 data/Data/TSLA.csv...
+2025-02-28 20:55:02,293 - INFO - Loading data for BND from ../week 11 data/Data/BND.csv...
+2025-02-28 20:55:02,327 - INFO - Loading data for SPY from ../week 11 data/Data/SPY.csv...
+2025-02-28 21:01:11,251 - INFO - Detecting outliers in daily returns.
+2025-02-28 21:13:52,373 - INFO - Loading data for TSLA from ../week 11 data/Data/TSLA.csv...
+2025-02-28 21:13:52,396 - INFO - Loading data for BND from ../week 11 data/Data/BND.csv...
+2025-02-28 21:13:52,413 - INFO - Loading data for SPY from ../week 11 data/Data/SPY.csv...
+2025-02-28 21:14:09,934 - INFO - Detecting outliers in daily returns.
+2025-02-28 21:14:26,971 - INFO - Detecting and removing outliers in daily returns.
+2025-02-28 21:14:26,987 - INFO - Removed 149 outliers from TSLA. New shape: (2385, 6)
+2025-02-28 21:14:26,992 - INFO - Removed 114 outliers from BND. New shape: (2420, 6)
+2025-02-28 21:14:27,011 - INFO - Removed 167 outliers from SPY. New shape: (2367, 6)
+2025-02-28 21:15:21,340 - INFO - Analyzing volatility with a rolling window of 30 days.
+2025-02-28 21:16:14,650 - INFO - Plotting closing prices for all assets.
+2025-02-28 21:16:42,388 - INFO - Plotting daily returns.
+2025-02-28 21:25:20,771 - INFO - Loading data for TSLA from ../week 11 data/Data/TSLA.csv...
+2025-02-28 21:25:20,800 - INFO - Loading data for BND from ../week 11 data/Data/BND.csv...
+2025-02-28 21:25:20,823 - INFO - Loading data for SPY from ../week 11 data/Data/SPY.csv...
+2025-02-28 21:25:30,002 - INFO - Detecting and removing outliers in daily returns.
+2025-02-28 21:25:30,004 - WARNING - Skipping TSLA: 'Daily_Return' not found.
+2025-02-28 21:25:30,006 - WARNING - Skipping BND: 'Daily_Return' not found.
+2025-02-28 21:25:30,009 - WARNING - Skipping SPY: 'Daily_Return' not found.
+2025-02-28 21:25:52,426 - INFO - Loading data for TSLA from ../week 11 data/Data/TSLA.csv...
+2025-02-28 21:25:52,449 - INFO - Loading data for BND from ../week 11 data/Data/BND.csv...
+2025-02-28 21:25:52,469 - INFO - Loading data for SPY from ../week 11 data/Data/SPY.csv...
+2025-02-28 21:26:02,355 - INFO - Detecting and removing outliers in daily returns.
+2025-02-28 21:26:02,356 - WARNING - Skipping TSLA: 'Daily_Return' not found.
+2025-02-28 21:26:02,357 - WARNING - Skipping BND: 'Daily_Return' not found.
+2025-02-28 21:26:02,360 - WARNING - Skipping SPY: 'Daily_Return' not found.
+2025-02-28 21:26:15,109 - INFO - Analyzing volatility with a rolling window of 30 days.
+2025-02-28 21:26:18,355 - INFO - Plotting closing prices for all assets.
+2025-02-28 21:26:22,037 - INFO - Plotting daily returns.
+2025-02-28 21:27:13,932 - INFO - Loading data for TSLA from ../week 11 data/Data/TSLA.csv...
+2025-02-28 21:27:13,965 - INFO - Loading data for BND from ../week 11 data/Data/BND.csv...
+2025-02-28 21:27:13,990 - INFO - Loading data for SPY from ../week 11 data/Data/SPY.csv...
+2025-02-28 21:27:25,506 - INFO - Detecting and removing outliers in daily returns.
+2025-02-28 21:27:25,512 - WARNING - Skipping TSLA: 'Daily_Return' not found.
+2025-02-28 21:27:25,515 - WARNING - Skipping BND: 'Daily_Return' not found.
+2025-02-28 21:27:25,518 - WARNING - Skipping SPY: 'Daily_Return' not found.
+2025-02-28 21:27:26,828 - INFO - Detecting and removing outliers in daily returns.
+2025-02-28 21:27:26,830 - WARNING - Skipping TSLA: 'Daily_Return' not found.
+2025-02-28 21:27:26,833 - WARNING - Skipping BND: 'Daily_Return' not found.
+2025-02-28 21:27:26,835 - WARNING - Skipping SPY: 'Daily_Return' not found.
+2025-02-28 21:27:30,414 - INFO - Analyzing volatility with a rolling window of 30 days.
+2025-02-28 21:27:33,862 - INFO - Plotting closing prices for all assets.
+2025-02-28 21:27:37,409 - INFO - Plotting daily returns.
+2025-02-28 21:31:01,732 - INFO - Loading data for TSLA from ../week 11 data/Data/TSLA.csv...
+2025-02-28 21:31:01,757 - INFO - Loading data for BND from ../week 11 data/Data/BND.csv...
+2025-02-28 21:31:01,779 - INFO - Loading data for SPY from ../week 11 data/Data/SPY.csv...
+2025-02-28 21:31:15,281 - INFO - Detecting and removing outliers in daily returns.
+2025-02-28 21:31:15,285 - WARNING - Skipping TSLA: 'Daily_Return' not found.
+2025-02-28 21:31:15,286 - WARNING - Skipping BND: 'Daily_Return' not found.
+2025-02-28 21:31:15,290 - WARNING - Skipping SPY: 'Daily_Return' not found.
+2025-03-02 20:37:33,163 - INFO - CSV file '../week 11 data/Data/Predicted Data/LSTM_Tesla_Forecast.csv' loaded successfully as 'tesla'.
+2025-03-02 20:37:33,163 - INFO - Shape of DataFrame 'tesla': (12, 2)
+2025-03-02 20:37:33,190 - INFO - CSV file '../week 11 data/Data/Predicted Data/LSTM_BND_Forecast.csv' loaded successfully as 'bnd'.
+2025-03-02 20:37:33,193 - INFO - Shape of DataFrame 'bnd': (12, 2)
+2025-03-02 20:37:33,198 - INFO - CSV file '../week 11 data/Data/Predicted Data/LSTM_Tesla_Forecast.csv' loaded successfully as 'spy'.
+2025-03-02 20:37:33,199 - INFO - Shape of DataFrame 'spy': (12, 2)
+2025-03-02 20:40:12,434 - INFO - CSV file '../week 11 data/Data/Predicted Data/LSTM_Tesla_Forecast.csv' loaded successfully as 'tesla'.
+2025-03-02 20:40:12,435 - INFO - Shape of DataFrame 'tesla': (12, 2)
+2025-03-02 20:40:12,442 - INFO - CSV file '../week 11 data/Data/Predicted Data/LSTM_BND_Forecast.csv' loaded successfully as 'bnd'.
+2025-03-02 20:40:12,445 - INFO - Shape of DataFrame 'bnd': (12, 2)
+2025-03-02 20:40:12,451 - INFO - CSV file '../week 11 data/Data/Predicted Data/LSTM_Tesla_Forecast.csv' loaded successfully as 'spy'.
+2025-03-02 20:40:12,451 - INFO - Shape of DataFrame 'spy': (12, 2)
+2025-03-02 20:41:38,804 - INFO - Returning DataFrame 'tesla'.
+2025-03-02 20:41:38,807 - INFO - Returning DataFrame 'bnd'.
+2025-03-02 20:41:38,808 - INFO - Returning DataFrame 'spy'.
+2025-03-02 20:43:39,284 - INFO - CSV file '../week 11 data/Data/Predicted Data/LSTM_Tesla_Forecast.csv' loaded successfully as 'tesla'.
+2025-03-02 20:43:39,284 - INFO - Shape of DataFrame 'tesla': (12, 2)
+2025-03-02 20:43:39,291 - INFO - CSV file '../week 11 data/Data/Predicted Data/LSTM_BND_Forecast.csv' loaded successfully as 'bnd'.
+2025-03-02 20:43:39,298 - INFO - Shape of DataFrame 'bnd': (12, 2)
+2025-03-02 20:43:39,305 - INFO - CSV file '../week 11 data/Data/Predicted Data/LSTM_Tesla_Forecast.csv' loaded successfully as 'spy'.
+2025-03-02 20:43:39,320 - INFO - Shape of DataFrame 'spy': (12, 2)
+2025-03-02 20:43:39,349 - INFO - Returning DataFrame 'tesla'.
+2025-03-02 20:43:39,351 - INFO - Shape of DataFrame 'tesla': (12, 2)
+2025-03-02 20:43:39,353 - INFO - Returning DataFrame 'bnd'.
+2025-03-02 20:43:39,358 - INFO - Shape of DataFrame 'bnd': (12, 2)
+2025-03-02 20:43:39,361 - INFO - Returning DataFrame 'spy'.
+2025-03-02 20:43:39,362 - INFO - Shape of DataFrame 'spy': (12, 2)
+2025-03-02 20:44:27,132 - INFO - Checking for missing values in DataFrame 'tesla'.
+2025-03-02 20:44:27,135 - INFO - Missing values check completed.
+2025-03-02 20:44:27,138 - INFO - Shape of DataFrame 'tesla': (12, 2)
+2025-03-02 20:44:59,393 - INFO - Checking for missing values in DataFrame 'bnd'.
+2025-03-02 20:44:59,395 - INFO - Missing values check completed.
+2025-03-02 20:44:59,396 - INFO - Shape of DataFrame 'bnd': (12, 2)
+2025-03-02 20:45:11,089 - INFO - Checking for missing values in DataFrame 'spy'.
+2025-03-02 20:45:11,089 - INFO - Missing values check completed.
+2025-03-02 20:45:11,100 - INFO - Shape of DataFrame 'spy': (12, 2)
+2025-03-02 20:57:10,265 - INFO - CSV file '../week 11 data/Data/Predicted Data/LSTM_Tesla_Forecast.csv' loaded successfully as 'tesla'.
+2025-03-02 20:57:10,265 - INFO - Shape of DataFrame 'tesla': (12, 2)
+2025-03-02 20:57:10,277 - INFO - CSV file '../week 11 data/Data/Predicted Data/LSTM_BND_Forecast.csv' loaded successfully as 'bnd'.
+2025-03-02 20:57:10,277 - INFO - Shape of DataFrame 'bnd': (12, 2)
+2025-03-02 20:57:10,282 - INFO - CSV file '../week 11 data/Data/Predicted Data/LSTM_Tesla_Forecast.csv' loaded successfully as 'spy'.
+2025-03-02 20:57:10,282 - INFO - Shape of DataFrame 'spy': (12, 2)
+2025-03-02 20:57:10,299 - INFO - Returning DataFrame 'tesla'.
+2025-03-02 20:57:10,302 - INFO - Shape of DataFrame 'tesla': (12, 2)
+2025-03-02 20:57:10,306 - INFO - Returning DataFrame 'bnd'.
+2025-03-02 20:57:10,306 - INFO - Shape of DataFrame 'bnd': (12, 2)
+2025-03-02 20:57:10,310 - INFO - Returning DataFrame 'spy'.
+2025-03-02 20:57:10,313 - INFO - Shape of DataFrame 'spy': (12, 2)
+2025-03-02 20:57:10,334 - INFO - Checking for missing values in DataFrame 'tesla'.
+2025-03-02 20:57:10,336 - INFO - Missing values check completed.
+2025-03-02 20:57:10,338 - INFO - Shape of DataFrame 'tesla': (12, 2)
+2025-03-02 20:57:10,371 - INFO - Checking for missing values in DataFrame 'bnd'.
+2025-03-02 20:57:10,375 - INFO - Missing values check completed.
+2025-03-02 20:57:10,378 - INFO - Shape of DataFrame 'bnd': (12, 2)
+2025-03-02 20:57:10,412 - INFO - Checking for missing values in DataFrame 'spy'.
+2025-03-02 20:57:10,417 - INFO - Missing values check completed.
+2025-03-02 20:57:10,419 - INFO - Shape of DataFrame 'spy': (12, 2)
+2025-03-02 21:17:56,186 - INFO - Converted 'Date' column to datetime in DataFrame 'tesla'.
+2025-03-02 21:17:56,188 - INFO - CSV file '../week 11 data/Data/Predicted Data/LSTM_Tesla_Forecast.csv' loaded successfully as 'tesla'.
+2025-03-02 21:17:56,190 - INFO - Shape of DataFrame 'tesla': (12, 2)
+2025-03-02 21:17:56,197 - INFO - Converted 'Date' column to datetime in DataFrame 'bnd'.
+2025-03-02 21:17:56,197 - INFO - CSV file '../week 11 data/Data/Predicted Data/LSTM_BND_Forecast.csv' loaded successfully as 'bnd'.
+2025-03-02 21:17:56,197 - INFO - Shape of DataFrame 'bnd': (12, 2)
+2025-03-02 21:17:56,206 - INFO - Converted 'Date' column to datetime in DataFrame 'spy'.
+2025-03-02 21:17:56,208 - INFO - CSV file '../week 11 data/Data/Predicted Data/LSTM_Tesla_Forecast.csv' loaded successfully as 'spy'.
+2025-03-02 21:17:56,210 - INFO - Shape of DataFrame 'spy': (12, 2)
+2025-03-02 21:17:56,225 - INFO - Returning DataFrame 'tesla'.
+2025-03-02 21:17:56,230 - INFO - Returning DataFrame 'bnd'.
+2025-03-02 21:17:56,231 - INFO - Returning DataFrame 'spy'.
+2025-03-02 21:17:56,264 - INFO - Checking for missing values in DataFrame 'tesla'.
+2025-03-02 21:17:56,268 - INFO - Missing values check completed.
+2025-03-02 21:17:56,269 - INFO - Shape of DataFrame 'tesla': (12, 2)
+2025-03-02 21:17:56,295 - INFO - Checking for missing values in DataFrame 'bnd'.
+2025-03-02 21:17:56,299 - INFO - Missing values check completed.
+2025-03-02 21:17:56,301 - INFO - Shape of DataFrame 'bnd': (12, 2)
+2025-03-02 21:17:56,332 - INFO - Checking for missing values in DataFrame 'spy'.
+2025-03-02 21:17:56,337 - INFO - Missing values check completed.
+2025-03-02 21:17:56,337 - INFO - Shape of DataFrame 'spy': (12, 2)
+2025-03-02 21:25:30,593 - INFO - Converted 'Date' column to datetime in DataFrame 'tesla'.
+2025-03-02 21:25:30,595 - INFO - CSV file '../week 11 data/Data/Predicted Data/LSTM_Tesla_Forecast.csv' loaded successfully as 'tesla'.
+2025-03-02 21:25:30,596 - INFO - Shape of DataFrame 'tesla': (12, 2)
+2025-03-02 21:25:30,602 - INFO - Converted 'Date' column to datetime in DataFrame 'bnd'.
+2025-03-02 21:25:30,602 - INFO - CSV file '../week 11 data/Data/Predicted Data/LSTM_BND_Forecast.csv' loaded successfully as 'bnd'.
+2025-03-02 21:25:30,608 - INFO - Shape of DataFrame 'bnd': (12, 2)
+2025-03-02 21:25:30,617 - INFO - Converted 'Date' column to datetime in DataFrame 'spy'.
+2025-03-02 21:25:30,618 - INFO - CSV file '../week 11 data/Data/Predicted Data/LSTM_Tesla_Forecast.csv' loaded successfully as 'spy'.
+2025-03-02 21:25:30,620 - INFO - Shape of DataFrame 'spy': (12, 2)
+2025-03-02 21:25:30,636 - INFO - Returning DataFrame 'tesla'.
+2025-03-02 21:25:30,639 - INFO - Returning DataFrame 'bnd'.
+2025-03-02 21:25:30,640 - INFO - Returning DataFrame 'spy'.
+2025-03-02 21:25:30,659 - INFO - Checking for missing values in DataFrame 'tesla'.
+2025-03-02 21:25:30,662 - INFO - Missing values check completed.
+2025-03-02 21:25:30,665 - INFO - Shape of DataFrame 'tesla': (12, 2)
+2025-03-02 21:25:30,695 - INFO - Checking for missing values in DataFrame 'bnd'.
+2025-03-02 21:25:30,698 - INFO - Missing values check completed.
+2025-03-02 21:25:30,702 - INFO - Shape of DataFrame 'bnd': (12, 2)
+2025-03-02 21:25:30,736 - INFO - Checking for missing values in DataFrame 'spy'.
+2025-03-02 21:25:30,739 - INFO - Missing values check completed.
+2025-03-02 21:25:30,740 - INFO - Shape of DataFrame 'spy': (12, 2)
+2025-03-02 21:28:13,489 - INFO - Converted 'Date' column to datetime in DataFrame 'tesla'.
+2025-03-02 21:28:13,490 - INFO - CSV file '../week 11 data/Data/Predicted Data/LSTM_Tesla_Forecast.csv' loaded successfully as 'tesla'.
+2025-03-02 21:28:13,492 - INFO - Shape of DataFrame 'tesla': (12, 2)
+2025-03-02 21:28:13,497 - INFO - Converted 'Date' column to datetime in DataFrame 'bnd'.
+2025-03-02 21:28:13,497 - INFO - CSV file '../week 11 data/Data/Predicted Data/LSTM_BND_Forecast.csv' loaded successfully as 'bnd'.
+2025-03-02 21:28:13,503 - INFO - Shape of DataFrame 'bnd': (12, 2)
+2025-03-02 21:28:13,512 - INFO - Converted 'Date' column to datetime in DataFrame 'spy'.
+2025-03-02 21:28:13,512 - INFO - CSV file '../week 11 data/Data/Predicted Data/LSTM_Tesla_Forecast.csv' loaded successfully as 'spy'.
+2025-03-02 21:28:13,515 - INFO - Shape of DataFrame 'spy': (12, 2)
+2025-03-02 21:28:13,530 - INFO - Returning DataFrame 'tesla'.
+2025-03-02 21:28:13,533 - INFO - Returning DataFrame 'bnd'.
+2025-03-02 21:28:13,533 - INFO - Returning DataFrame 'spy'.
+2025-03-02 21:28:13,560 - INFO - Checking for missing values in DataFrame 'tesla'.
+2025-03-02 21:28:13,563 - INFO - Missing values check completed.
+2025-03-02 21:28:13,567 - INFO - Shape of DataFrame 'tesla': (12, 2)
+2025-03-02 21:28:13,601 - INFO - Checking for missing values in DataFrame 'bnd'.
+2025-03-02 21:28:13,606 - INFO - Missing values check completed.
+2025-03-02 21:28:13,608 - INFO - Shape of DataFrame 'bnd': (12, 2)
+2025-03-02 21:28:13,640 - INFO - Checking for missing values in DataFrame 'spy'.
+2025-03-02 21:28:13,644 - INFO - Missing values check completed.
+2025-03-02 21:28:13,647 - INFO - Shape of DataFrame 'spy': (12, 2)
+2025-03-02 21:31:16,780 - INFO - Converted 'Date' column to datetime in DataFrame 'tesla'.
+2025-03-02 21:31:16,783 - INFO - CSV file '../week 11 data/Data/Predicted Data/LSTM_Tesla_Forecast.csv' loaded successfully as 'tesla'.
+2025-03-02 21:31:16,787 - INFO - Shape of DataFrame 'tesla': (12, 2)
+2025-03-02 21:31:16,798 - INFO - Converted 'Date' column to datetime in DataFrame 'bnd'.
+2025-03-02 21:31:16,798 - INFO - CSV file '../week 11 data/Data/Predicted Data/LSTM_BND_Forecast.csv' loaded successfully as 'bnd'.
+2025-03-02 21:31:16,807 - INFO - Shape of DataFrame 'bnd': (12, 2)
+2025-03-02 21:31:16,818 - INFO - Converted 'Date' column to datetime in DataFrame 'spy'.
+2025-03-02 21:31:16,824 - INFO - CSV file '../week 11 data/Data/Predicted Data/LSTM_Tesla_Forecast.csv' loaded successfully as 'spy'.
+2025-03-02 21:31:16,831 - INFO - Shape of DataFrame 'spy': (12, 2)
+2025-03-02 21:31:16,873 - INFO - Returning DataFrame 'tesla'.
+2025-03-02 21:31:16,878 - INFO - Returning DataFrame 'bnd'.
+2025-03-02 21:31:16,879 - INFO - Returning DataFrame 'spy'.
+2025-03-02 21:31:16,924 - INFO - Checking for missing values in DataFrame 'tesla'.
+2025-03-02 21:31:16,924 - INFO - Missing values check completed.
+2025-03-02 21:31:16,924 - INFO - Shape of DataFrame 'tesla': (12, 2)
+2025-03-02 21:31:16,958 - INFO - Checking for missing values in DataFrame 'bnd'.
+2025-03-02 21:31:16,958 - INFO - Missing values check completed.
+2025-03-02 21:31:16,964 - INFO - Shape of DataFrame 'bnd': (12, 2)
+2025-03-02 21:31:16,999 - INFO - Checking for missing values in DataFrame 'spy'.
+2025-03-02 21:31:17,002 - INFO - Missing values check completed.
+2025-03-02 21:31:17,004 - INFO - Shape of DataFrame 'spy': (12, 2)
+2025-03-02 21:33:48,242 - INFO - Converted 'Date' column to datetime in DataFrame 'tesla'.
+2025-03-02 21:33:48,242 - INFO - CSV file '../week 11 data/Data/Predicted Data/LSTM_Tesla_Forecast.csv' loaded successfully as 'tesla'.
+2025-03-02 21:33:48,245 - INFO - Shape of DataFrame 'tesla': (12, 2)
+2025-03-02 21:33:48,254 - INFO - Converted 'Date' column to datetime in DataFrame 'bnd'.
+2025-03-02 21:33:48,256 - INFO - CSV file '../week 11 data/Data/Predicted Data/LSTM_BND_Forecast.csv' loaded successfully as 'bnd'.
+2025-03-02 21:33:48,257 - INFO - Shape of DataFrame 'bnd': (12, 2)
+2025-03-02 21:33:48,262 - INFO - Converted 'Date' column to datetime in DataFrame 'spy'.
+2025-03-02 21:33:48,267 - INFO - CSV file '../week 11 data/Data/Predicted Data/LSTM_Tesla_Forecast.csv' loaded successfully as 'spy'.
+2025-03-02 21:33:48,270 - INFO - Shape of DataFrame 'spy': (12, 2)
+2025-03-02 21:33:48,289 - INFO - Returning DataFrame 'tesla'.
+2025-03-02 21:33:48,292 - INFO - Returning DataFrame 'bnd'.
+2025-03-02 21:33:48,292 - INFO - Returning DataFrame 'spy'.
+2025-03-02 21:33:48,306 - INFO - Checking for missing values in DataFrame 'tesla'.
+2025-03-02 21:33:48,316 - INFO - Missing values check completed.
+2025-03-02 21:33:48,318 - INFO - Shape of DataFrame 'tesla': (12, 2)
+2025-03-02 21:33:48,351 - INFO - Checking for missing values in DataFrame 'bnd'.
+2025-03-02 21:33:48,354 - INFO - Missing values check completed.
+2025-03-02 21:33:48,356 - INFO - Shape of DataFrame 'bnd': (12, 2)
+2025-03-02 21:33:48,385 - INFO - Checking for missing values in DataFrame 'spy'.
+2025-03-02 21:33:48,390 - INFO - Missing values check completed.
+2025-03-02 21:33:48,392 - INFO - Shape of DataFrame 'spy': (12, 2)
+2025-03-02 21:34:30,718 - INFO - Converted 'Date' column to datetime in DataFrame 'tesla'.
+2025-03-02 21:34:30,723 - INFO - CSV file '../week 11 data/Data/Predicted Data/LSTM_Tesla_Forecast.csv' loaded successfully as 'tesla'.
+2025-03-02 21:34:30,726 - INFO - Shape of DataFrame 'tesla': (12, 2)
+2025-03-02 21:34:30,732 - INFO - Converted 'Date' column to datetime in DataFrame 'bnd'.
+2025-03-02 21:34:30,734 - INFO - CSV file '../week 11 data/Data/Predicted Data/LSTM_BND_Forecast.csv' loaded successfully as 'bnd'.
+2025-03-02 21:34:30,737 - INFO - Shape of DataFrame 'bnd': (12, 2)
+2025-03-02 21:34:30,745 - INFO - Converted 'Date' column to datetime in DataFrame 'spy'.
+2025-03-02 21:34:30,747 - INFO - CSV file '../week 11 data/Data/Predicted Data/LSTM_Tesla_Forecast.csv' loaded successfully as 'spy'.
+2025-03-02 21:34:30,748 - INFO - Shape of DataFrame 'spy': (12, 2)
+2025-03-02 21:34:30,767 - INFO - Returning DataFrame 'tesla'.
+2025-03-02 21:34:30,769 - INFO - Returning DataFrame 'bnd'.
+2025-03-02 21:34:30,769 - INFO - Returning DataFrame 'spy'.
+2025-03-02 21:34:30,791 - INFO - Checking for missing values in DataFrame 'tesla'.
+2025-03-02 21:34:30,794 - INFO - Missing values check completed.
+2025-03-02 21:34:30,798 - INFO - Shape of DataFrame 'tesla': (12, 2)
+2025-03-02 21:34:30,825 - INFO - Checking for missing values in DataFrame 'bnd'.
+2025-03-02 21:34:30,826 - INFO - Missing values check completed.
+2025-03-02 21:34:30,831 - INFO - Shape of DataFrame 'bnd': (12, 2)
+2025-03-02 21:34:30,861 - INFO - Checking for missing values in DataFrame 'spy'.
+2025-03-02 21:34:30,866 - INFO - Missing values check completed.
+2025-03-02 21:34:30,867 - INFO - Shape of DataFrame 'spy': (12, 2)
